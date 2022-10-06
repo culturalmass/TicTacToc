@@ -1,6 +1,7 @@
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 import React from "react";
 import { Game, Home } from "@screens";
+import { Text } from "@components";
 import {
     useFonts,
     DeliusUnicase_400Regular,
@@ -15,8 +16,13 @@ const App = () => {
     if (!fontLoaded) return null;
     return (
         <View style={styles.container}>
-            <Text style={{ fontSize: 25, fontFamily: "DeliusUnicase_400Regular" }}>
-                Hello World!
+            <Text
+                onPress={() => {
+                    alert(true);
+                }}
+                style={{ fontSize: 25 }}
+            >
+                Hello World! <Text weight="400">Test</Text>
             </Text>
         </View>
     );
