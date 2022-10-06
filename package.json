@@ -19,9 +19,12 @@
         "**/*.{js,jsx,ts,tsx}": "prettier --write"
     },
     "dependencies": {
+        "@expo-google-fonts/delius-unicase": "^0.2.2",
         "eslint": "^8.24.0",
         "eslint-config-prettier": "^8.5.0",
         "expo": "~46.0.13",
+        "expo-font": "~10.2.0",
+        "expo-splash-screen": "~0.16.2",
         "expo-status-bar": "~1.4.0",
         "react": "18.0.0",
         "react-dom": "18.0.0",
@@ -34,6 +37,7 @@
         "@types/react-native": "~0.69.1",
         "@typescript-eslint/eslint-plugin": "^5.39.0",
         "@typescript-eslint/parser": "^5.39.0",
+        "babel-plugin-module-resolver": "^4.1.0",
         "eslint-plugin-react": "^7.31.8",
         "husky": "^8.0.0",
         "lint-staged": "^13.0.3",
