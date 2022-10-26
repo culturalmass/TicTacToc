@@ -16,9 +16,22 @@
         },
         "assetBundlePatterns": ["**/*"],
         "ios": {
-            "supportsTablet": true
+            "supportsTablet": true,
+            "bundleIdentifier": "com.TheMelcrafterLab.tictactoe",
+            "buildNumber": "1.0.0",
+            "config": {
+                "googleMobileAdsAppId": ""
+            }
         },
         "android": {
+            "useNextNotificationsApi": true,
+            "package": "com.TheMelcrafterLab.tictactoe",
+            "versionCode": 1,
+            "googleServicesFile": "./google-services.json",
+            "permissions": ["VIBRATE"],
+            "config": {
+                "googleMobileAdsAppId": ""
+            },
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#FFFFFF"

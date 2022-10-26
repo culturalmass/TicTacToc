@@ -1,2 +1,9 @@
 export { default as Home } from "./home/home";
-export { default as Game } from "./game/game";
+export { default as SinglePlayerGame } from "./single-player-game/single-player-game";
+export { default as MultiplayerHome } from "./multiplayer-home/multiplayer-home";
+export { default as MultiplayerGame } from "./multiplayer-game/multiplayer-game";
+export { default as Login } from "./login/login";
+export { default as Register } from "./register/register";
+export { default as Settings } from "./settings/settings";
+export { default as ChangePassword } from "./change-password/change-password";
+export { default as ForgotPassword } from "./forgot-password/forgot-password";

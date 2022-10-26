@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tictactoe-dev-142145-authRole",
+      "UnauthRoleArn": "arn:aws:iam::196590610359:role/amplify-tictactoe-dev-142145-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::196590610359:role/amplify-tictactoe-dev-142145-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+      "UnauthRoleName": "amplify-tictactoe-dev-142145-unauthRole",
+      "StackName": "amplify-tictactoe-dev-142145",
+      "StackId": "arn:aws:cloudformation:eu-west-1:196590610359:stack/amplify-tictactoe-dev-142145/1cbf8080-4896-11ed-bdd6-066cdfb292c3",
+      "AmplifyAppId": "dngsjc119nfm8"
+    },
+    "categories": {
+      "auth": {
+        "tictactoe0c8a94b8": {}
+      },
+      "function": {
+        "postConfirmation": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/postConfirmation-5771366866554d546e41-build.zip"
+        },
+        "startGame": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/startGame-61365172444869546933-build.zip"
+        },
+        "playMove": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/playMove-4b62347764626a566861-build.zip"
+        },
+        "addExpoToken": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/addExpoToken-7064497245677167414a-build.zip"
+        },
+        "handleExpoTickets": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/handleExpoTickets-6f4745563650676a657a-build.zip"
+        },
+        "preAuth": {
+          "deploymentBucketName": "amplify-tictactoe-dev-142145-deployment",
+          "s3Key": "amplify-builds/preAuth-30445632567149575a4c-build.zip"
+        }
+      },
+      "api": {
+        "tictactoe": {}
+      }
+    }
+  }
+}
